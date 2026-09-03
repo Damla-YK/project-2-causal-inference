@@ -132,6 +132,9 @@ Estimated effect:
 | Two-way FE DiD | +0.75 |
 | DiD + baseline performance | +1.02 |
 | Full adjusted DiD | +1.06 |
+### Model Comparison
+
+![Model comparison](model_comparison.png)
 
 The main finding is that the large **+6.48 mark observational difference** becomes substantially smaller after accounting for the structure of the observational data.
 
@@ -166,6 +169,10 @@ The formal pre-treatment trend test produced:
 This provides no statistically significant evidence of different pre-treatment trends.
 
 However, a non-significant test does not prove that the parallel-trends assumption holds, so the pre-treatment graph is also considered when interpreting the results.
+
+### Pre-Treatment Trends
+
+![Pre-treatment trends](pre_treatment_trends.png)
 
 ---
 
